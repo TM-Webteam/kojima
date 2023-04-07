@@ -1,0 +1,319 @@
+/* Main Flora Style Sheet for jQuery UI ui-datepicker */
+
+/* フォントサイズの変更可 */
+#ui-datepicker-div, .ui-datepicker-inline {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	background: #000;
+	width: 185px;
+	}
+
+/* 外側ライン色 */
+#ui-datepicker-div {
+	display: none;
+	border: 1px solid #999999;
+	z-index: 10;
+	}
+
+.ui-datepicker-inline {
+	float: left;
+	display: block;
+	border: 0;
+	}
+
+.ui-datepicker-rtl {
+	direction: rtl;
+	}
+
+.ui-datepicker-dialog {
+	padding: 5px !important;
+	border: 4px ridge #83C948 !important;
+	}
+
+button.ui-datepicker-trigger {
+	width: 25px;
+	}
+
+img.ui-datepicker-trigger {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+.ui-datepicker-prompt {
+	float: left;
+	padding: 2px;
+	background: #E0F4D7;
+	color: #000;
+	}
+
+*html .ui-datepicker-prompt {
+	width: 185px;
+	}
+
+.ui-datepicker-control, .ui-datepicker-links, .ui-datepicker-header, .ui-datepicker {
+	clear: both;
+	float: left;
+	width: 100%;
+	color: #FFF;
+	}
+
+/* 1段目の背景色 */
+.ui-datepicker-control {
+	background: #bbbbbb;
+	padding: 2px 0px;
+	}
+
+/* 2段目の背景色 */
+.ui-datepicker-links {
+	background: #dddddd;
+	padding: 2px 0 1px 0;
+	}
+
+/* 1段目の文字の太さと大きさ */
+.ui-datepicker-control {
+	font-weight: normal;
+	font-size: 80%;
+	letter-spacing: 1px;
+	}
+
+/* 2段目の文字の太さと大きさ */
+.ui-datepicker-links {
+	font-weight: normal;
+	font-size: 80%;
+	letter-spacing: 1px;
+	}
+
+/**/
+.ui-datepicker-links label {
+	padding: 2px 5px;
+	color: #888;
+	}
+
+.ui-datepicker-clear, .ui-datepicker-prev {
+	float: left;
+	width: 34%;
+	text-align: left;
+	}
+
+.ui-datepicker-rtl .ui-datepicker-clear, .ui-datepicker-rtl .ui-datepicker-prev {
+	float: right;
+	text-align: right;
+	}
+
+.ui-datepicker-current {
+	float: left;
+	width: 30%;
+	text-align: center;
+	}
+
+.ui-datepicker-close, .ui-datepicker-next {
+	float: right;
+	width: 34%;
+	text-align: right;
+	}
+
+.ui-datepicker-rtl .ui-datepicker-close, .ui-datepicker-rtl .ui-datepicker-next {
+	float: left;
+	text-align: left;
+	}
+
+/* 3段目の背景色 */
+.ui-datepicker-header {
+	padding: 1px 0 3px;
+	background: #bbbbbb;
+	text-align: center;
+	font-weight: bold;
+	height: 1.3em;
+	}
+
+/* 3段目セレクトボックスの背景色と文字色 */
+.ui-datepicker-header select {
+	background: #ffffff;
+	color: #000;
+	border: 0px;
+	font-weight: bold;
+	}
+
+/*  */
+.ui-datepicker {
+	background: #000;
+	text-align: center;
+	font-size: 100%;
+	}
+
+.ui-datepicker a {
+	display: block;
+	width: 100%;
+	}
+
+/* 4段目平日曜日の背景色 */
+.ui-datepicker-title-row {
+	background: #cccccc;
+	color: #000;
+	}
+
+/* 4段目土日曜日の背景色 */
+.ui-datepicker-title-row .ui-datepicker-week-end-cell {
+	background: #666699;
+	}
+
+/* 月～金のカレンダー部、背景色 */
+.ui-datepicker-days-row {
+	background: #fff;
+	color: #666;
+	}
+
+/*  */
+.ui-datepicker-week-col {
+	background: #000000;
+	color: #000;
+	}
+
+/* 各日の外枠色 */
+.ui-datepicker-days-cell {
+	color: #000;
+	border: 1px solid #ddd;
+	}
+
+.ui-datepicker-days-cell a {
+	display: block;
+	}
+
+/* カレンダー部、選択されていない土日の背景色 */
+.ui-datepicker-week-end-cell {
+	background: #ccccff;
+	}
+
+/* */
+.ui-datepicker-unselectable {
+	color: #f00;
+	}
+
+/*  */
+.ui-datepicker-week-over, .ui-datepicker-week-over .ui-datepicker-week-end-cell {
+	background: #fff !important;
+	}
+
+/* 平日日付部分のhover時の背景色とボーダー設定 */
+.ui-datepicker-days-cell-over, .ui-datepicker-days-cell-over.ui-datepicker-week-end-cell {
+	background: #ccccff !important;
+	border: 1px solid #ccc;
+	}
+
+/* 土日日付部分のhover時の背景色とボーダー設定及び土日選択済みの場合のデフォルト値 */
+.ui-datepicker-days-cell-over.ui-datepicker-week-end-cell {
+	background: #9999ff !important;
+	border: 1px solid #ccc;
+	}
+
+/*  */
+* html .ui-datepicker-title-row .ui-datepicker-week-end-cell {
+	background: #0ff !important;
+	}
+
+/*  */
+* html .ui-datepicker-week-end-cell {
+	background: #f00 !important;
+	border: 1px solid #DDD !important;
+	}
+
+/*  */
+* html .ui-datepicker-days-cell-over {
+	background: #000 !important;
+	border: 1px solid #f00 !important;
+	}
+
+/*  */
+* html .ui-datepicker-current-day {
+	background: #ff0 !important;
+	}
+
+/* 当日の背景色 */
+.ui-datepicker-today {
+	background: #6666ff !important;
+	}
+
+/* 入力値の日付の背景色 */
+.ui-datepicker-current-day {
+	background: #ff6666 !important;
+	}
+
+/*  */
+.ui-datepicker-status {
+	background: #e0f4d7;
+	width: 100%;
+	font-size: 80%;
+	text-align: center;
+	}
+
+/* カレンダー部分　日付けの文字色 */
+#ui-datepicker-div a, .ui-datepicker-inline a {
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	background: none;
+	color: #3333ff;
+	}
+
+/*  */
+.ui-datepicker-inline .ui-datepicker-links a {
+	padding: 0 5px !important;
+	}
+
+/*  */
+.ui-datepicker-control a, .ui-datepicker-links a {
+	padding: 2px 5px !important;
+	color: #006 !important;
+	}
+
+/* 4段目　曜日部分の文字色 */
+.ui-datepicker-title-row a {
+	color: #000066 !important;
+	}
+
+/* 1段目　【閉じる】のhover時の背景色と文字色 */
+.ui-datepicker-control a:hover {
+	background: #3366cc !important;
+	color: #00f !important;
+	}
+
+/* 2段目前月・当日・次月のhover時背景色と文字色 */
+.ui-datepicker-links a:hover {
+	background: #6666cc !important;
+	color: #00f !important;
+	}
+
+/* 4段目　曜日部分のhover時の背景色と文字色 */
+.ui-datepicker-title-row a:hover {
+	background: #0000cc !important;
+	color: #fff !important;
+	}
+
+/*  */
+.ui-datepicker-multi .ui-datepicker {
+	border: 1px solid #ff0000;
+	}
+
+/* 月カレンダーの際の幅 */
+.ui-datepicker-one-month {
+	float: left;
+	width: 185px;
+	}
+
+.ui-datepicker-new-row {
+	clear: left;
+	}
+
+.ui-datepicker-cover {
+	display: none;
+	display/**/: block;
+	position: absolute;
+	z-index: -1;
+	filter: mask();
+	top: -4px;
+	left: -4px;
+	width: 193px;
+	height: 200px;
+	}

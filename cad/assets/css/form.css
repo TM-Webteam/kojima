@@ -1,0 +1,30 @@
+.formBtnarea{
+  text-align: center;
+}
+
+.formBtnarea form{
+      min-width: 300px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.bgGray{
+  background: #aaa
+}
+.fwb{
+	font-weight: bold;
+}
+.tac{
+	text-align: center !important;
+}
+select {
+    padding: 10px;
+    font-size: 14px;
+}
+.mb40{
+  margin-bottom: 40px;
+}
+.f_add_link{
+  color: #0000ff;
+  text-decoration: underline;
+}
