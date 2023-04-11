@@ -418,14 +418,30 @@ $pan[1]['title'] = strip_tags($blog_arr['title']);
 							</div>
 						<?php endforeach ?>
 
-						<div class="price-btn v2 mtb30">
-							<div class="price-btn__sidebar v2"><span>料金が一目でわかる！資料をプレゼント </span></div>
-							<a href="/cad/price/" class="price-btn__link v2">
-								<span>パターンメイキング・グレーディング</span><br>
-								料金資料をもらう（無料）
-							</a>
-							<div class="price-btn__txt">お申込み後、リアルタイムでお送りいたします！</div>
-						</div>
+            <div class="presents">
+              <div class="presents__img"><img src="<?php echo $url_path; ?>/assets/img/common/img-price.png" alt="料金資料をもらう（無料）"></div>
+              <div class="price-btn v2 m0">
+                <div class="price-btn__sidebar"><span>料金が一目でわかる！資料をプレゼント </span></div>
+                <a href="<?php echo $url_path; ?>/price/" class="price-btn__link v2 non">
+                  <span>パターンメイキング・グレーディング</span><br>
+                  料金資料をもらう（無料）
+                </a>
+                <div class="price-btn__txt">お申込み後、リアルタイムでお送りいたします！</div>
+              </div>
+            </div>
+
+            <div class="presents">
+              <div class="presents__img"><img src="<?php echo $url_path; ?>/assets/img/common/img-leaflet.png" alt="CADサービス資料をもらう（無料）"></div>
+              <div class="price-btn v2 m0">
+                <div class="price-btn__sidebar"><span>各種サービス単価、よくあるご質問などを収録！</span></div>
+                <a href="<?php echo $url_path; ?>/leaflet/" class="price-btn__link v2 non">
+                  <span>パターンメイキング・グレーディングほか</span><br>
+                  CADサービス資料をもらう（無料）
+                </a>
+                <div class="price-btn__txt">お申込み後、リアルタイムでお送りいたします！</div>
+              </div>
+            </div>
+
 						<?php if (!empty($blog_arr['rec_main_title'])) : ?>
 							<div class="relatedItem">
 								<div class="relatedItem__ttl"><?php echo $blog_arr['rec_main_title']; ?></div>
