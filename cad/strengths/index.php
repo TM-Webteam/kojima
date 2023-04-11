@@ -66,7 +66,7 @@ $pan[0]["title"] = "小島衣料の強み";
   <script src="//kitchen.juicer.cc/?color=Z+x+canRRXU=" async></script>
 </head>
 
-<body class="home page floating-start">
+<body class="home page">
 
 
   <?php include("../include/header.php"); ?>
@@ -81,7 +81,7 @@ $pan[0]["title"] = "小島衣料の強み";
   </div>
 
   <!-- <--20200525 KOJIMA-61 改善施策　コロナ需要強化モジュール追加-->
-  <section class="">
+  <section class="floating-start">
     <div class="background_dark_gr">
       <div class="container">
         <div class="heading-primary mb-15">

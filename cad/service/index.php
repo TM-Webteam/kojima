@@ -59,7 +59,7 @@ $pan[0]["title"] = "サービス紹介";
 <link rel="stylesheet" href="<?php echo $url_path; ?>/assets/css/main3.css">
 <script src="//kitchen.juicer.cc/?color=Z+x+canRRXU=" async></script>
 </head>
-<body class="home page floating-start">
+<body class="home page">
 
 <?php include ("../include/header.php"); ?>
 
@@ -67,14 +67,25 @@ $pan[0]["title"] = "サービス紹介";
 <div class="top_img service">
   <img src="<?php echo $url_path; ?>/assets/img/service/head_img.jpg" class="pc-only">
   <img src="<?php echo $url_path; ?>/assets/img/service/head_img_sp.jpg" class="sp-only">
-  <div class="top_img__headline">
+  <div class="top_img__headline sp-p350">
     <p class="dec_ore">アパレルメーカー・商社の皆様へ</p>
     <p class="dec_h">迅速、リーズナブル、高品質。</p>
     <h1>小島衣料の<br class="sp-only">パターンメイキング・<br class="sp-only">グレーディング外注依頼</h1>
     <p>急ぎの案件・小ロットの案件についても<br class="sp-only">お気軽にご相談下さい。</p>
   </div>
-  <div class="top_img__overlay">
-    <div class="flex_box jcC">
+  <div class="top_img__overlay mv_btn_area">
+    <div class="btn_box mt0">
+      <div class="btn_boxs mb30_sp">
+        <a href="<?php echo $url_path; ?>/contact/" class="btn-arrow w90p">納期・見積りを依頼する</a>
+      </div>
+      <div class="btn_boxs mb30_sp">
+        <a href="<?php echo $url_path; ?>/price/" class="btn-arrow blue w90p">【無料】料金表をもらう</a>
+      </div>
+      <div class="btn_boxs">
+        <a href="<?php echo $url_path; ?>/leaflet/" class="btn-arrow white v2 w90p">【無料】サービス資料をもらう</a>
+      </div>
+    </div>
+    <!-- <div class="flex_box jcC">
       <div class="price-btn mlr30">
         <div class="price-btn__sidebar"><span>お気軽にお問合せください！</span></div>
         <a href="/cad/contact/" class="price-btn__link w380">
@@ -90,12 +101,12 @@ $pan[0]["title"] = "サービス紹介";
         </a>
         <div class="price-btn__txt">お申し込み後、リアルタイムでお送りいたします！</div>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 
 
-<section class="">
+<section class="floating-start">
   <div class="container">
     <div class="heading-primary">
       <h2 class="heading-primary__ttl">服種やサイズ問わず<br class="sp-only">幅広く対応可能です。</h2>
@@ -153,7 +164,7 @@ $pan[0]["title"] = "サービス紹介";
             <li>ご希望がございましたらサンプル作成・小ロット生産も承っております。</li>
           </ul>
         </div>
-        <div class="mt25 w90p">
+        <!-- <div class="mt25 w90p">
           <div class="price-btn">
             <div class="price-btn__sidebar"><span>料金が一目でわかる！</span></div>
             <a href="<?php echo $url_path; ?>/price/" class="price-btn__link">
@@ -162,7 +173,7 @@ $pan[0]["title"] = "サービス紹介";
             </a>
             <div class="price-btn__txt">お申込み後、リアルタイムでお送りいたします！</div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="flex_box service_txt_box" id="grading">
@@ -185,7 +196,7 @@ $pan[0]["title"] = "サービス紹介";
             <li>英語の縫製仕様書作成も対応致します。</li>
           </ul>
         </div>
-        <div class="mt25 w90p">
+        <!-- <div class="mt25 w90p">
           <div class="price-btn">
             <div class="price-btn__sidebar"><span>料金が一目でわかる！</span></div>
             <a href="<?php echo $url_path; ?>/price/" class="price-btn__link">
@@ -194,7 +205,7 @@ $pan[0]["title"] = "サービス紹介";
             </a>
             <div class="price-btn__txt">お申込み後、リアルタイムでお送りいたします！</div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="col_2">
         <img src="<?php echo $url_path; ?>/assets/img/service/service-img08.jpg" class="pc-only">
@@ -214,7 +225,7 @@ $pan[0]["title"] = "サービス紹介";
             <li>無駄のない裁断シートを作成します。</li>
           </ul>
         </div>
-        <div class="mt25 w90p">
+        <!-- <div class="mt25 w90p">
           <div class="price-btn">
             <div class="price-btn__sidebar"><span>料金が一目でわかる！</span></div>
             <a href="<?php echo $url_path; ?>/price/" class="price-btn__link">
@@ -223,7 +234,7 @@ $pan[0]["title"] = "サービス紹介";
             </a>
             <div class="price-btn__txt">お申込み後、リアルタイムでお送りいたします！</div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -242,7 +253,7 @@ $pan[0]["title"] = "サービス紹介";
           </ul>
           <p class="li_dec">中国、ミャンマー各拠点で出力、カットしてデリバリーいたします。</p>
         </div>
-        <div class="mt25 w90p">
+        <!-- <div class="mt25 w90p">
           <div class="price-btn">
             <div class="price-btn__sidebar"><span>料金が一目でわかる！</span></div>
             <a href="<?php echo $url_path; ?>/price/" class="price-btn__link">
@@ -251,7 +262,7 @@ $pan[0]["title"] = "サービス紹介";
             </a>
             <div class="price-btn__txt">お申込み後、リアルタイムでお送りいたします！</div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="col_2">
         <img src="<?php echo $url_path; ?>/assets/img/service/service-img10.jpg" class="pc-only">
@@ -260,7 +271,7 @@ $pan[0]["title"] = "サービス紹介";
   </div>
 </section>
 
-<section>
+<!-- <section>
   <div class="background_gr_check">
     <div class="container">
       <div class="heading-primary">
@@ -287,7 +298,6 @@ $pan[0]["title"] = "サービス紹介";
         <div class="col_3">
           <ul>
             <li>三共生興</li>
-            <!-- <li>三井物産アイファッション</li> -->
             <li>丸紅ファッションリンク</li>
             <li>他１２０社 etc..<br>（順不同・敬称略）</li>
           </ul>
@@ -303,9 +313,9 @@ $pan[0]["title"] = "サービス紹介";
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
-<section>
+<!-- <section>
   <div class="page_contact_bg">
     <div class="container">
       <div class="heading-primary">
@@ -423,6 +433,21 @@ $pan[0]["title"] = "サービス紹介";
       </div>
     </div>
   </div>
+</section> -->
+
+<section class="cta-btn">
+  <a href="<?php echo $url_path; ?>/contact/" class="core cta-btn__link">
+    <div class="cta-btn__link--img"><img src="<?php echo $url_path; ?>/assets/img/common/mail.svg" alt="納期・見積りを依頼する"></div>
+    <div class="cta-btn__link--txt"><span>&ensp;納期・見積りを依頼する</span></div>
+  </a>
+  <a href="<?php echo $url_path; ?>/price/" class="core cta-btn__link">
+    <div class="cta-btn__link--img"><img src="<?php echo $url_path; ?>/assets/img/common/price.svg" alt="【無料】料金表をもらう"></div>
+    <div class="cta-btn__link--txt"><span>【無料】料金表をもらう</span></div>
+  </a>
+  <a href="<?php echo $url_path; ?>/leaflet/" class="core cta-btn__link">
+    <div class="cta-btn__link--img"><img src="<?php echo $url_path; ?>/assets/img/common/doc.svg" alt="【無料】サービス詳細資料をもらう"></div>
+    <div class="cta-btn__link--txt"><span>【無料】サービス詳細資料をもらう</span></div>
+  </a>
 </section>
 
 <?php include("../include/floatingBtn.php"); ?>

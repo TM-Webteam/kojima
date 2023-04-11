@@ -61,7 +61,7 @@ $pan[0]["title"] = "実績・事例";
   <script src="//kitchen.juicer.cc/?color=Z+x+canRRXU=" async></script>
 </head>
 
-<body class="home page case floating-start">
+<body class="home page case">
   <?php include("../include/header.php"); ?>
 
 
@@ -78,7 +78,7 @@ $pan[0]["title"] = "実績・事例";
   </div>
 
 
-  <section class="">
+  <section class="floating-start">
     <div class="background_gr_check">
       <div class="container">
         <div class="heading-primary">

@@ -61,13 +61,18 @@
     $('.blog_relation_area .item_txt').matchHeight();
   });
 
-  $(function(){
+  $(function() {
     var scrollStart = $('.floating-start').offset().top;
-    $( window ).on( 'scroll', function() {
-      if ( scrollStart < $( this ).scrollTop() ) {
-        $( '.floatingBtn' ).addClass( 'block' );
+    var windowHeight = $(window).height();
+    var footerHeight = $('.footer').height();
+    
+    $(window).on('scroll', function() {
+      var scrollPos = $(this).scrollTop();
+      
+      if ($('.floating-start').length && scrollStart < scrollPos && scrollPos < ($(document).height() - windowHeight - footerHeight)) {
+        $('.floatingBtn').addClass('block').fadeIn();
       } else {
-        $( '.floatingBtn' ).removeClass( 'block' );
+        $('.floatingBtn').removeClass('block').fadeOut();
       }
     });
   });

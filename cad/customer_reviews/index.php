@@ -66,7 +66,7 @@ $pan[0]["title"] = "お客様の声";
   <script src="//kitchen.juicer.cc/?color=Z+x+canRRXU=" async></script>
 </head>
 
-<body class="home page floating-start">
+<body class="home page">
 
 
   <?php include("../include/header.php"); ?>
@@ -80,7 +80,7 @@ $pan[0]["title"] = "お客様の声";
     </div>
   </div>
 
-  <section class="background_gr_check">
+  <section class="background_gr_check floating-start">
 
 
     <div class="container pt20_sp mt60_pc">

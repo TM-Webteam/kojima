@@ -68,7 +68,7 @@ $pan[0]["title"] = "パターンメイキング・グレーディングQ&A集";
     <script src="//kitchen.juicer.cc/?color=Z+x+canRRXU=" async></script>
 </head>
 
-<body class="home page floating-start">
+<body class="home page">
 
 
     <?php include("../include/header.php"); ?>
@@ -82,7 +82,7 @@ $pan[0]["title"] = "パターンメイキング・グレーディングQ&A集";
         </div>
     </div>
 
-    <section class="qa_section">
+    <section class="qa_section floating-start">
         <div class="container qa_category_container">
             <h2 class="heading-primary__ttl">カテゴリを選択</h2>
             <ul class="qa_category">

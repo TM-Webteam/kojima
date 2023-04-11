@@ -137,7 +137,7 @@ while ($blog = $stmt->fetch(PDO::FETCH_ASSOC)) {
 <script src="//kitchen.juicer.cc/?color=Z+x+canRRXU=" async></script>
 </head>
 
-<body class="home page blog floating-start">
+<body class="home page blog">
 
   <?php include("../include/header.php"); ?>
 
@@ -149,7 +149,7 @@ while ($blog = $stmt->fetch(PDO::FETCH_ASSOC)) {
       <p>小島衣料のパターンメイキング・<br class="sp-only">グレーディング業務に関する情報を<br class="sp-only">配信しています。</p>
     </div>
   </div>
-  <div class="container">
+  <div class="container floating-start">
     <div class="col-2-main">
       <div class="left-container">
         <section>
