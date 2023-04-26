@@ -3268,19 +3268,20 @@ figure.cardlink__img {
   bottom: 100px;
   width: 150px;
   display: none;
-  z-index: 2;
+  z-index: 1000;
 }
 
 .floatingBtn.block {
   display: block;
 }
 
-@media (max-width:768px) {
+@media (max-width:1280px) {
   .floatingBtn {
     right: 0;
-    left: 15px;
+    left: 0;
     bottom: 15px;
-    width: 275px;
+    margin: auto;
+    width: 100%;
   }
 }
 
@@ -3288,6 +3289,13 @@ figure.cardlink__img {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+@media (max-width:1280px) {
+  .floatingBtn__box {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 @media (max-width:768px) {
@@ -3303,6 +3311,18 @@ figure.cardlink__img {
   overflow: hidden;
   position: relative;
   border-radius: 50%;
+}
+
+@media (max-width:1280px) {
+  .floatingBtn__box a {
+    width: 120px;
+  }
+}
+
+@media (max-width:768px) {
+  .floatingBtn__box a {
+    width: 80px;
+  }
 }
 
 .floatingBtn__box a::before {
