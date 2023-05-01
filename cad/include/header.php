@@ -100,7 +100,7 @@ if ($_REQUEST['n'] != '' && $_REQUEST['c'] != '') {
               <li><a href="<?php echo $url_path; ?>/blog">お役立ち記事</a></li>
               <li><a href="<?php echo $url_path; ?>/price">料金表</a></li>
               <li><a href="<?php echo $url_path; ?>/modeling">3Dモデリング</a></li>
-              <li><a href="<?php echo $url_path; ?>/leaflet">CADサービス資料</a></li>
+              <li><a href="<?php echo $url_path; ?>/leaflet">サービス資料</a></li>
             </ul>
             <div class="cta-banner">
               <!--               <div class="cta-banner__body">
@@ -155,7 +155,7 @@ if ($_REQUEST['n'] != '' && $_REQUEST['c'] != '') {
               </div>
             </li>
             <li class="nav__item"><a href="<?php echo $url_path; ?>/price" class="nav__link"><span>料金表</span></a></li>
-            <li class="nav__item"><a href="<?php echo $url_path; ?>/leaflet" class="nav__link"><span>CADサービス資料</span></a></li>
+            <li class="nav__item"><a href="<?php echo $url_path; ?>/leaflet" class="nav__link"><span>サービス資料</span></a></li>
           </ul>
         </div>
         <!-- /.nav -->
