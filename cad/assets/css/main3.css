@@ -3649,3 +3649,55 @@ figure.cardlink__img {
     float: none;
   }
 }
+
+.anc {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+  text-align: center;
+}
+
+.anc li {
+  width: calc(100% / 3 - 20px);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.anc li a {
+  display: block;
+  color: #fff;
+  background: #333333;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16);
+  border: 2px solid #333333;
+  position: relative;
+  transition: all .3s;
+}
+
+.anc li a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -15px;
+  margin: auto;
+  width: 5px;
+  height: 5px;
+  border-color: rgba(0,0,0,0) rgba(0,0,0,0) #333 #333;
+  border-style: solid;
+  border-width: 2px;
+  transform: rotate(-45deg);
+  transition: all .3s;
+}
+
+.anc li a:hover {
+  color: #333;
+  background: #fff;
+}
+
+.anc li a:hover::before {
+  bottom: -20px;
+}

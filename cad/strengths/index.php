@@ -80,31 +80,24 @@ $pan[0]["title"] = "小島衣料の強み";
     </div>
   </div>
 
-  <!-- <--20200525 KOJIMA-61 改善施策　コロナ需要強化モジュール追加-->
   <section class="floating-start">
     <div class="background_dark_gr">
       <div class="container">
-        <div class="heading-primary mb-15">
-          <h2 class="heading-primary__ttl">【新型コロナ対策】<br>パターン・グレーディング外注承ります！</h2>
-          <p class="fwb mt0">自宅にいながらパターン・グレーディング作業のご依頼が可能です。</p>
-          <p class="mt25">✔お急ぎ・小ロット案件対応<br>✔プロッター出力・デリバリー対応<br>✔お客様のイメージを忠実にカタチにします</p>
+        <div class="heading-primary mb-50">
+          <h2 class="heading-primary__ttl">パターン、グレーティング、3Dモデリング<br>低価格・高品質な外注なら「小島衣料」へ</h2>
         </div>
-        <div class="tac">
-          <p class="corona_txt">小島衣料CADサービスにお任せください！</p>
-          <a class="btn-arrow" href="<?php echo $url_path; ?>/contact/">
-            お問合せ・ご依頼はこちら
-          </a>
-        </div>
+        <ul class="anc">
+          <li><a href="#anc01">短納期</a></li>
+          <li><a href="#anc02">低価格</a></li>
+          <li><a href="#anc03">豊富な実績</a></li>
+        </ul>
       </div>
     </div>
   </section>
-  <!-- <--20200525 KOJIMA-61 改善施策　コロナ需要強化モジュール追加 end-->
 
   <section>
-
-
     <div class="container strengths_num">
-      <h2><span>強み<span>1</span></span>急ぎの納期にも対応</h2>
+      <h2 id="anc01"><span>強み<span>1</span></span>急ぎの納期にも対応</h2>
       <div class="flex_box strengths_num__box">
         <div class="col_2">
           <img src="<?php echo $url_path; ?>/assets/img/strengths/strengths_img01.jpg">
@@ -115,7 +108,7 @@ $pan[0]["title"] = "小島衣料の強み";
         </div>
       </div>
 
-      <h2><span>強み<span>2</span></span>リーズナブル（低価格）</h2>
+      <h2 id="anc02"><span>強み<span>2</span></span>リーズナブル（低価格）</h2>
       <div class="flex_box strengths_num__box">
         <img src="<?php echo $url_path; ?>/assets/img/strengths/strengths_img02.jpg" class="sp-only">
         <div class="col_2 left_txt">
@@ -127,7 +120,7 @@ $pan[0]["title"] = "小島衣料の強み";
         </div>
       </div>
 
-      <h2><span>強み<span>3</span></span>豊富な実績</h2>
+      <h2 id="anc03"><span>強み<span>3</span></span>豊富な実績</h2>
       <div class="flex_box strengths_num__box">
         <div class="col_2">
           <img src="<?php echo $url_path; ?>/assets/img/strengths/strengths_img03.jpg">
