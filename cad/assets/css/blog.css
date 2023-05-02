@@ -13,7 +13,8 @@
 		margin-bottom: 40px;
 	}
 	.column-meta__categories {
-		display: inline-block;
+		display: flex;
+    /* display: inline-block; */
 	}
 	.column-meta__categories li {
 		margin-right: 1em;

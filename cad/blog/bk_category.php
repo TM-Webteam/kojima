@@ -205,26 +205,28 @@ while ($blog = $stmt->fetch(PDO::FETCH_ASSOC)) {
           ?>
             <div class="archive_box">
 
-              <div class="flex_box mt30 mb15 a-center fS">
-                <div class="archive_date"><?php echo preg_replace("/-/", ".", $value['blog_date']) ?></div>
-                <?php foreach ($category_arr as $cate_value) : ?>
-                  <a href="<?php echo $url_path; ?>/blog/detail/category/<?php echo $item_slug_count[$cate_value] ?>">
-                    <div class="ar-cat">
-                      <?php echo $item_name_list[$cate_value] ?>
-                    </div>
-                  </a>
-                <?php endforeach ?>
-              </div>
-
-              <a href="<?php echo $url_path; ?>/blog/detail/<?php echo $value['slug'] ?>" class="flex_box wrap">
-                <div class="archive_img"><img src="<?php echo $url_path; ?>/up_file/<?php echo $value['up_file1'] ?>"></div>
-                <div class="archive_dec">
-                  <h2><?php echo $value['title'] ?></h2>
-                  <p><?php echo $value['lead_sentence'] ?></p>
-                  <div class="mt15 txt-link"><span>記事の続きを読む</span></div>
+              <?php foreach ($category_arr as $cate_value) : ?>
+                <a href="<?php echo $url_path; ?>/blog/detail/category/<?php echo $item_slug_count[$cate_value] ?>">
+                  <div class="ar-cat">
+                    <?php echo $item_name_list[$cate_value] ?>
+                  </div>
+                </a>
+              <?php endforeach ?>
+              <h2><a href="<?php echo $url_path; ?>/blog/detail/<?php echo $value['slug'] ?>"><?php echo $value['title'] ?></a></h2>
+              <div class="flex_box wrap">
+                <div class="archive_img">
+                  <img src="<?php echo $url_path; ?>/up_file/<?php echo $value['up_file1'] ?>">
                 </div>
-              </a>
-
+                <div class="archive_dec">
+                  <p><?php echo $value['lead_sentence'] ?></p>
+                  <div class="flex_box mt30 a-center">
+                    <div class="archive_date">
+                      <?php echo preg_replace("/-/", ".", $value['blog_date']) ?>
+                    </div>
+                    <a class="btn-arrow more" href="<?php echo $url_path; ?>/blog/detail/<?php echo $value['slug'] ?>">記事の続きを読む</a>
+                  </div>
+                </div>
+              </div>
             </div>
 
           <?php endforeach ?>

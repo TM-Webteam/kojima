@@ -3670,13 +3670,6 @@ figure.cardlink__img {
   margin-top: -50px;
 }
 
-@media screen and (max-width: 768px) {
-  .anc-space {
-    padding-top: 50px;
-    margin-top: -50px;
-  }
-}
-
 .anc li {
   width: calc(100% / 3 - 20px);
   font-size: 20px;
@@ -3732,4 +3725,80 @@ figure.cardlink__img {
 
 .anc li a:hover::before {
   bottom: -20px;
+}
+
+.flex_box.fS {
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.archive_box .ar-cat {
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .archive_box .ar-cat {
+    margin-bottom: 5px;
+  }
+}
+
+.archive_date {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .archive_date {
+    font-size: 14px;
+  }
+}
+
+.archive_box h2 {
+  margin: 0 0 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .archive_box h2 {
+    font-size: 16px;
+  }
+}
+
+.archive_box .archive_dec p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-weight: 500;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.txt-link span {
+  display: inline-block;
+  padding: 0 5px 0 15px;
+  border-bottom: 1px solid #000;
+  position: relative;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.txt-link span::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  border: 1px solid;
+  border-color: #333 #333 transparent transparent;
+  transform: rotate(45deg);
 }

@@ -170,7 +170,22 @@ $pan[0]["title"] = "小島衣料の強み";
     </div>
   </section>
 
-  <section>
+  <section class="cta-btn">
+    <a href="<?php echo $url_path; ?>/contact/" class="core cta-btn__link">
+      <div class="cta-btn__link--img"><img src="<?php echo $url_path; ?>/assets/img/common/mail.svg" alt="納期・見積りを依頼する"></div>
+      <div class="cta-btn__link--txt"><span> 納期・見積りを依頼する</span></div>
+    </a>
+    <a href="<?php echo $url_path; ?>/price/" class="core cta-btn__link">
+      <div class="cta-btn__link--img"><img src="<?php echo $url_path; ?>/assets/img/common/price.svg" alt="【無料】料金表をもらう"></div>
+      <div class="cta-btn__link--txt"><span>【無料】料金表をもらう</span></div>
+    </a>
+    <a href="<?php echo $url_path; ?>/leaflet/" class="core cta-btn__link">
+      <div class="cta-btn__link--img"><img src="<?php echo $url_path; ?>/assets/img/common/doc.svg" alt="【無料】サービス詳細資料をもらう"></div>
+      <div class="cta-btn__link--txt"><span>【無料】サービス詳細資料をもらう</span></div>
+    </a>
+  </section>
+
+  <!-- <section>
     <div class="page_contact_bg">
       <div class="container">
         <div class="heading-primary">
@@ -288,7 +303,7 @@ $pan[0]["title"] = "小島衣料の強み";
           </div>
         </div>
       </div>
-  </section>
+  </section> -->
 
   <?php include("../include/floatingBtn.php"); ?>
 
