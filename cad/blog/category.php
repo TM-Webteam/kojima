@@ -205,7 +205,7 @@ while ($blog = $stmt->fetch(PDO::FETCH_ASSOC)) {
           ?>
             <div class="archive_box">
 
-              <div class="flex_box mt30 mb15 a-center fS">
+              <div class="flex_box mb15 a-center fS">
                 <div class="archive_date"><?php echo preg_replace("/-/", ".", $value['blog_date']) ?></div>
                 <?php foreach ($category_arr as $cate_value) : ?>
                   <a href="<?php echo $url_path; ?>/blog/detail/category/<?php echo $item_slug_count[$cate_value] ?>">

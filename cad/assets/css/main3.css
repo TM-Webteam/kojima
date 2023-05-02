@@ -3636,7 +3636,7 @@ figure.cardlink__img {
 }
 
 .fr {
-  width: 50%;
+  width: 43%;
   margin-left: 20px;
   float: right;
 }
@@ -3734,6 +3734,9 @@ figure.cardlink__img {
 
 .archive_box .ar-cat {
   border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {
@@ -3801,4 +3804,16 @@ figure.cardlink__img {
   border: 1px solid;
   border-color: #333 #333 transparent transparent;
   transform: rotate(45deg);
+}
+
+.archive_box {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .archive_box {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
 }
