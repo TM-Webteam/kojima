@@ -3659,10 +3659,35 @@ figure.cardlink__img {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .anc {
+    gap: 15px;
+  }
+}
+
+.anc-space {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+@media screen and (max-width: 768px) {
+  .anc-space {
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+}
+
 .anc li {
   width: calc(100% / 3 - 20px);
   font-size: 20px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .anc li {
+    width: calc(100% / 3 - 10px);
+    font-size: 14px;
+  }
 }
 
 .anc li a {
@@ -3675,6 +3700,13 @@ figure.cardlink__img {
   border: 2px solid #333333;
   position: relative;
   transition: all .3s;
+}
+
+@media screen and (max-width: 768px) {
+  .anc li a {
+    padding: 10px;
+    border: 1px solid #333333;
+  }
 }
 
 .anc li a::before {

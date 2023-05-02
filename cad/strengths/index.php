@@ -84,7 +84,7 @@ $pan[0]["title"] = "小島衣料の強み";
     <div class="background_dark_gr">
       <div class="container">
         <div class="heading-primary mb-50">
-          <h2 class="heading-primary__ttl">パターン、グレーティング、3Dモデリング<br>低価格・高品質な外注なら「小島衣料」へ</h2>
+          <h2 class="heading-primary__ttl">パターン、グレーティング、<br class="sp-only">3Dモデリング<br>低価格・高品質な外注なら<br class="sp-only">「小島衣料」へ</h2>
         </div>
         <ul class="anc">
           <li><a href="#anc01">短納期</a></li>
@@ -97,39 +97,47 @@ $pan[0]["title"] = "小島衣料の強み";
 
   <section>
     <div class="container strengths_num">
-      <h2 id="anc01"><span>強み<span>1</span></span>急ぎの納期にも対応</h2>
-      <div class="flex_box strengths_num__box">
-        <div class="col_2">
-          <img src="<?php echo $url_path; ?>/assets/img/strengths/strengths_img01.jpg">
-        </div>
-        <div class="col_2">
-          <p>経験豊富なスタッフがパターン作成～グレーディングまで対応。海外拠点もあるため、サンプル作成、小ロットにも短納期で対応が可能です。</p>
-          <a class="btn-arrow stre_btn" href="../contact/">納期問合せはこちら</a>
-        </div>
-      </div>
 
-      <h2 id="anc02"><span>強み<span>2</span></span>リーズナブル（低価格）</h2>
-      <div class="flex_box strengths_num__box">
-        <img src="<?php echo $url_path; ?>/assets/img/strengths/strengths_img02.jpg" class="sp-only">
-        <div class="col_2 left_txt">
-          <p>料金も低価格でご提供させて頂いております。海外拠点も含め多くのキャパシティを保有しているため、リーズナブルな料金体系を実現しています。</p>
-          <a class="btn-arrow stre_btn" href="../contact/">お見積り依頼･料金確認はこちら</a>
-        </div>
-        <div class="col_2">
-          <img src="<?php echo $url_path; ?>/assets/img/strengths/strengths_img02.jpg" class="pc-only">
-        </div>
-      </div>
-
-      <h2 id="anc03"><span>強み<span>3</span></span>豊富な実績</h2>
-      <div class="flex_box strengths_num__box">
-        <div class="col_2">
-          <img src="<?php echo $url_path; ?>/assets/img/strengths/strengths_img03.jpg">
-        </div>
-        <div class="col_2">
-          <p>国内大手アパレルメーカーのナショナルブランドをはじめ、様々なジャンルの洋服のパターンメイキング・グレーディング業務をサポートしています。</p>
-          <a class="btn-arrow stre_btn" href="<?php echo $url_path; ?>/case/">実績はこちら</a>
+      <div id="anc01" class="anc-space">
+        <h2><span>強み<span>1</span></span>急ぎの納期にも対応</h2>
+        <div class="flex_box strengths_num__box">
+          <div class="col_2">
+            <img src="<?php echo $url_path; ?>/assets/img/strengths/strengths_img01.jpg">
+          </div>
+          <div class="col_2">
+            <p>経験豊富なスタッフがパターン作成～グレーディングまで対応。海外拠点もあるため、サンプル作成、小ロットにも短納期で対応が可能です。</p>
+            <a class="btn-arrow stre_btn" href="<?php echo $url_path; ?>/contact/">納期問合せはこちら</a>
+          </div>
         </div>
       </div>
+      
+      <div id="anc02" class="anc-space">
+        <h2><span>強み<span>2</span></span>リーズナブル（低価格）</h2>
+        <div class="flex_box strengths_num__box">
+          <img src="<?php echo $url_path; ?>/assets/img/strengths/strengths_img02.jpg" class="sp-only">
+          <div class="col_2 left_txt">
+            <p>料金も低価格でご提供させて頂いております。海外拠点も含め多くのキャパシティを保有しているため、リーズナブルな料金体系を実現しています。</p>
+            <a class="btn-arrow stre_btn" href="<?php echo $url_path; ?>/contact/">お見積り依頼･料金確認はこちら</a>
+          </div>
+          <div class="col_2">
+            <img src="<?php echo $url_path; ?>/assets/img/strengths/strengths_img02.jpg" class="pc-only">
+          </div>
+        </div>
+      </div>
+      
+      <div id="anc03" class="anc-space">
+        <h2><span>強み<span>3</span></span>豊富な実績</h2>
+        <div class="flex_box strengths_num__box">
+          <div class="col_2">
+            <img src="<?php echo $url_path; ?>/assets/img/strengths/strengths_img03.jpg">
+          </div>
+          <div class="col_2">
+            <p>国内大手アパレルメーカーのナショナルブランドをはじめ、様々なジャンルの洋服のパターンメイキング・グレーディング業務をサポートしています。</p>
+            <a class="btn-arrow stre_btn" href="<?php echo $url_path; ?>/case/">実績はこちら</a>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </section>
 
