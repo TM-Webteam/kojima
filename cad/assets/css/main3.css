@@ -3622,3 +3622,30 @@ figure.cardlink__img {
 .presents__img {
   width: 150px;
 }
+
+.cf:before,
+.cf:after {
+  content:"";
+  display:block;
+  overflow:hidden;
+}
+.cf:after { clear:both; }
+.cf { 
+  zoom:1;
+  display: inline-table;
+}
+
+.fr {
+  width: 50%;
+  margin-left: 20px;
+  float: right;
+}
+
+@media screen and (max-width: 768px) {
+  .fr {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 15px;
+    float: none;
+  }
+}

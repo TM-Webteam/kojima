@@ -295,13 +295,17 @@ $pan[1]['title'] = strip_tags($blog_arr['title']);
               <p class="column-meta__postdate"><?php echo $blog_arr['blog_date_view'] ?></p>
             </div>
           </header>
-          <?php if (!empty($blog_arr['up_file1'])) : ?>
-            <div class="column-article__top-img">
-              <img class="column-article__img" src="<?php echo $url_path; ?>/up_file/<?php echo $blog_arr['up_file1'] ?>" alt="<?php echo $blog_arr['alt1'] ?>">
-            </div>
-          <?php endif ?>
-          <section class="column-content">
+
+          <div class="cf">
+            <?php if (!empty($blog_arr['up_file1'])) : ?>
+              <div class="column-article__top-img fr">
+                <img class="column-article__img" src="<?php echo $url_path; ?>/up_file/<?php echo $blog_arr['up_file1'] ?>" alt="<?php echo $blog_arr['alt1'] ?>">
+              </div>
+            <?php endif ?>
             <p class="column-article__txt"><?php echo $blog_arr['lead_sentence'] ?></p>
+          </div>
+
+          <section class="column-content">
             <?php if ($blog_arr['product_name'] == "1") : ?>
               <div class="blogdetail_cta_above_toc_container">
                 <p class="ttl">アパレル業界の業務効率化をサポートする<br>パターンメイキング・グレーディング外注</p>
