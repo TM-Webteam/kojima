@@ -3718,10 +3718,10 @@ figure.cardlink__img {
   transition: all .3s;
 }
 
-.anc li a:hover {
+/* .anc li a:hover {
   color: #333;
   background: #fff;
-}
+} */
 
 .anc li a:hover::before {
   bottom: -20px;
