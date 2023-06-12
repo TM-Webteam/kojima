@@ -3817,3 +3817,108 @@ figure.cardlink__img {
     margin-bottom: 15px;
   }
 }
+
+
+.cookie_policy .containers {
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px 80px;
+}
+
+@media (max-width:768px) {
+  .cookie_policy .containers {
+    padding: 0 15px 40px;
+  }
+}
+
+.cookie_policy__box {
+  line-height: 1.8;
+  letter-spacing: .04em
+}
+
+.cookie_policy__box div {
+  margin-bottom: 15px;
+}
+.cookie_policy__box dl {
+  counter-reset: count;
+}
+.cookie_policy__box dl.num-none {
+  counter-reset: none;
+}
+.cookie_policy__box dl.num-none dt:before {
+  content: none;
+  counter-increment: none;
+}
+.cookie_policy__box dl dt {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+@media (max-width:768px){
+  .cookie_policy__box dl dt {
+    margin-bottom: 10px;
+  }
+}
+.cookie_policy__box dl dt:before {
+  content: counter(count) ".";
+  counter-increment: count;
+}
+.cookie_policy__box dl dd {
+  padding-left: 1.5em;
+  margin-bottom: 10px;
+}
+.cookie_policy__box dl dd span {
+  color: #fc9400;
+}
+.cookie_policy__box dl dd.pl3 {
+  padding-left: 3em;
+}
+.cookie_policy__box dl dd.pl2 {
+  padding-left: 2em;
+}
+.cookie_policy__box dl dd a {
+  text-decoration: underline;
+}
+.cookie_policy__box dl dd a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+.cookie_policy__box dl dd table col {
+  width: 30%;
+}
+.cookie_policy__box dl dd table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: #fff;
+}
+.cookie_policy__box dl dd table col:last-child {
+  width: 70%;
+}
+.cookie_policy__box dl dd table td,
+.cookie_policy__box dl dd table th {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.cookie_policy__box dl dd table th {
+  background: #f1f1f1;
+}
+.cookie_policy_tit {
+  font-weight: 700;
+  font-size: 20px;
+  /* text-align: center; */
+  margin: 30px 0;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.td_text {
+  margin-bottom: 13px;
+  line-height: 1.5;
+}
+.td_pa {
+  padding: 25px 10px;
+}

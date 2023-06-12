@@ -40,6 +40,7 @@
             <li><a href="http://www.kojima-iryo.com/privacy.html" target="_blank">プライバシーポリシー</a></li>
             <li><a href="http://www.kojima-iryo.com/company.html" target="_blank">会社概要</a></li>
             <li><a href="<?php echo $url_path; ?>/mailmagazine">メールマガジン登録</a></li>
+            <li><a href="<?php echo $url_path; ?>/cookie_policy">cookieポリシー</a></li>
           </ul>
         </div>
         <div class="foot_c_right__copy">©2019 小島衣料CADサービス All Rights Reserved.</div>
